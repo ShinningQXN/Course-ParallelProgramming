@@ -2,6 +2,9 @@ package edu.coursera.parallel;
 
 import java.util.concurrent.RecursiveAction;
 
+import static edu.rice.pcdp.PCDP.async;
+import static edu.rice.pcdp.PCDP.finish;
+
 /**
  * Class wrapping methods for implementing reciprocal array sum in parallel.
  */
@@ -129,7 +132,7 @@ public final class ReciprocalArraySum {
         }
     }
 
-    private double directCompute(int startIndexInclusive, int endIndexExclusive, double[] input) {
+    private static double directCompute(int startIndexInclusive, int endIndexExclusive, double[] input) {
         double sum = 0;
         for (int i = startIndexInclusive; i < endIndexExclusive; i++) {
             sum += 1 / input[i];
@@ -146,17 +149,31 @@ public final class ReciprocalArraySum {
      * @param input Input array
      * @return The sum of the reciprocals of the array input
      */
+    static double left = 0;
+    static double right = 0;
+
     protected static double parArraySum(final double[] input) {
         assert input.length % 2 == 0;
 
         double sum = 0;
 
-        // Compute sum of reciprocals of array elements
-        for (int i = 0; i < input.length; i++) {
-            sum += 1 / input[i];
-        }
+        int mid = input.length / 2;
 
-        return sum;
+
+        // Compute sum of reciprocals of array elements
+        finish(()->{
+            async(()->
+            {
+                for (int i = 0; i <= mid; i++) {
+                left += 1 / input[i];
+                }
+            });
+            for (int i = mid + 1; i < input.length; i++) {
+                right += 1 / input[i];
+            }
+        });
+        return left + right;
+
     }
 
     /**
