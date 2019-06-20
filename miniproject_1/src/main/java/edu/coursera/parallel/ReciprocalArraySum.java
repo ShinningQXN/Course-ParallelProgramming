@@ -129,6 +129,14 @@ public final class ReciprocalArraySum {
         }
     }
 
+    private double directCompute(int startIndexInclusive, int endIndexExclusive, double[] input) {
+        double sum = 0;
+        for (int i = startIndexInclusive; i < endIndexExclusive; i++) {
+            sum += 1 / input[i];
+        }
+        return sum;
+    }
+
     /**
      * TODO: Modify this method to compute the same reciprocal sum as
      * seqArraySum, but use two tasks running in parallel under the Java Fork
