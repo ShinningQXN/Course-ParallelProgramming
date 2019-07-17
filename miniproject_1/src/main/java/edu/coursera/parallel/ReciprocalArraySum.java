@@ -1,11 +1,26 @@
 package edu.coursera.parallel;
-import java.util.*;
-import java.util.concurrent.*;
 
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.ForkJoinPool;
+import java.util.concurrent.RecursiveAction;
 /**
  * Class wrapping methods for implementing reciprocal array sum in parallel.
  */
 public final class ReciprocalArraySum {
+    PrintStream out = System.out;
+    PrintStream ps;
+
+    {
+        try {
+            ps = new PrintStream("./log.txt");
+            System.setOut(ps);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
 
     /**
      * Default constructor.
