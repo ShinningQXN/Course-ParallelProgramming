@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="917b051e-15a6-40aa-95f0-138899b4eea5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/coursera/parallel/ReciprocalArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/coursera/parallel/ReciprocalArraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/coursera/parallel/ReciprocalArraySum$ReciprocalArraySumTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/coursera/parallel/ReciprocalArraySum$ReciprocalArraySumTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/coursera/parallel/ReciprocalArraySum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/coursera/parallel/ReciprocalArraySum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.coursera.parallel.ReciprocalArraySumTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.coursera.parallel.ReciprocalArraySumTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.coursera.parallel.ReciprocalArraySumTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.coursera.parallel.ReciprocalArraySumTest.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,26 +23,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/coursera/parallel/ReciprocalArraySum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="182" column="9" lean-forward="true" selection-start-line="182" selection-start-column="9" selection-end-line="182" selection-end-column="9" />
+            <state relative-caret-position="293">
+              <caret line="119" column="70" selection-start-line="119" selection-start-column="70" selection-end-line="119" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/coursera/parallel/log.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/coursera/parallel/package-info.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#4411#4412#0" expanded="true" />
+                <element signature="e#4447#4448#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,13 +37,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/coursera/parallel/ReciprocalArraySumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            <state relative-caret-position="138">
+              <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>system</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -62,6 +59,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/edu/coursera/parallel/main.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/coursera/parallel/ReciprocalArraySum.java" />
       </list>
     </option>
@@ -82,10 +80,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="16" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="811" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -101,6 +100,11 @@
             <path>
               <item name="miniproject_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="miniproject_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miniproject_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miniproject_1" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="miniproject_1" type="b2602c69:ProjectViewProjectNode" />
@@ -127,13 +131,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="parallel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miniproject_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miniproject_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="miniproject_1" type="b2602c69:ProjectViewProjectNode" />
@@ -167,7 +164,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563341443118" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563512629565" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -181,7 +178,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ReciprocalArraySum">
+    <configuration name="ReciprocalArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.coursera.parallel.ReciprocalArraySum" />
+      <module name="miniproject_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.coursera.parallel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReciprocalArraySumTest.testParSimpleTwoMillion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="miniproject_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.coursera.parallel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.coursera.parallel" />
+      <option name="MAIN_CLASS_NAME" value="edu.coursera.parallel.ReciprocalArraySumTest" />
+      <option name="METHOD_NAME" value="testParSimpleTwoMillion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="miniproject_1 [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -209,6 +235,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReciprocalArraySum" />
+        <item itemvalue="JUnit.ReciprocalArraySumTest.testParSimpleTwoMillion" />
         <item itemvalue="Maven.miniproject_1 [test]" />
       </list>
     </recent_temporary>
@@ -226,26 +254,58 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ReciprocalArraySumTest_testParSimpleTwoMillion - 2019.07.18 at 16h 27m 37s.xml">
+      <configuration name="ReciprocalArraySumTest.testParSimpleTwoMillion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReciprocalArraySumTest_testParSimpleTwoMillion - 2019.07.18 at 16h 29m 50s.xml">
+      <configuration name="ReciprocalArraySumTest.testParSimpleTwoMillion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReciprocalArraySumTest_testParSimpleTwoMillion - 2019.07.18 at 16h 30m 42s.xml">
+      <configuration name="ReciprocalArraySumTest.testParSimpleTwoMillion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReciprocalArraySumTest_testParSimpleTwoMillion - 2019.07.18 at 16h 37m 45s.xml">
+      <configuration name="ReciprocalArraySumTest.testParSimpleTwoMillion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReciprocalArraySumTest_testParSimpleTwoMillion - 2019.07.18 at 16h 38m 16s.xml">
+      <configuration name="ReciprocalArraySumTest.testParSimpleTwoMillion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReciprocalArraySumTest_testParSimpleTwoMillion - 2019.07.18 at 21h 28m 52s.xml">
+      <configuration name="ReciprocalArraySumTest.testParSimpleTwoMillion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReciprocalArraySumTest_testParSimpleTwoMillion - 2019.07.18 at 21h 34m 15s.xml">
+      <configuration name="ReciprocalArraySumTest.testParSimpleTwoMillion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReciprocalArraySumTest_testParSimpleTwoMillion - 2019.07.18 at 21h 36m 56s.xml">
+      <configuration name="ReciprocalArraySumTest.testParSimpleTwoMillion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReciprocalArraySumTest_testParSimpleTwoMillion - 2019.07.18 at 21h 43m 20s.xml">
+      <configuration name="ReciprocalArraySumTest.testParSimpleTwoMillion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReciprocalArraySumTest_testParSimpleTwoMillion - 2019.07.18 at 21h 50m 32s.xml">
+      <configuration name="ReciprocalArraySumTest.testParSimpleTwoMillion" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="16" y="23" width="1440" height="811" extended-state="0" />
-    <editor active="true" />
+    <frame x="16" y="23" width="1440" height="797" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32962447" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991655" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30496454" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="RDE" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32962447" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33617023" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Black Caiman" order="11" />
@@ -254,7 +314,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven-2 Build" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.1509299" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.24606581" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -264,55 +324,92 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/edu/coursera/parallel/ReciprocalArraySum.java</url>
-          <line>179</line>
+          <url>file://$PROJECT_DIR$/src/test/java/edu/coursera/parallel/ReciprocalArraySumTest.java</url>
+          <line>119</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/edu/coursera/parallel/ReciprocalArraySum.java</url>
-          <line>152</line>
+          <line>138</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/edu/coursera/parallel/ReciprocalArraySum.java</url>
-          <line>195</line>
+          <line>140</line>
           <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/edu/coursera/parallel/ReciprocalArraySum.java</url>
-          <line>197</line>
+          <line>141</line>
           <properties />
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/edu/coursera/parallel/ReciprocalArraySum.java</url>
-          <line>198</line>
+          <line>158</line>
           <properties />
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/coursera/parallel/ReciprocalArraySum.java</url>
+          <line>170</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/coursera/parallel/ReciprocalArraySum.java</url>
+          <line>181</line>
+          <properties />
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/coursera/parallel/ReciprocalArraySumTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/coursera/parallel/log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/coursera/parallel/log.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/coursera/parallel/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/coursera/parallel/ReciprocalArraySumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/coursera/parallel/ReciprocalArraySum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="182" column="9" lean-forward="true" selection-start-line="182" selection-start-column="9" selection-end-line="182" selection-end-column="9" />
+        <state relative-caret-position="293">
+          <caret line="119" column="70" selection-start-line="119" selection-start-column="70" selection-end-line="119" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4411#4412#0" expanded="true" />
+            <element signature="e#4447#4448#0" expanded="true" />
           </folding>
         </state>
       </provider>

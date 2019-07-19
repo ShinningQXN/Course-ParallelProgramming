@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="edu.coursera.parallel.ReciprocalArraySumTest" time="6.408" tests="4" errors="0" skipped="0" failures="4">
+<testsuite name="edu.coursera.parallel.ReciprocalArraySumTest" time="6.858" tests="4" errors="0" skipped="0" failures="4">
   <properties>
     <property name="idea.version" value="2018.3.5"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testParSimpleTwoMillion" classname="edu.coursera.parallel.ReciprocalArraySumTest" time="0.067">
+  <testcase name="testParSimpleTwoMillion" classname="edu.coursera.parallel.ReciprocalArraySumTest" time="0.045">
     <failure message="Mismatch in result for N = 2000000, expected = 104672.524998, computed = 0.000000, absolute error = 104672.524998" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Mismatch in result for N = 2000000, expected = 104672.524998, computed = 0.000000, absolute error = 104672.524998
 	at junit.framework.Assert.fail(Assert.java:47)
 	at junit.framework.Assert.assertTrue(Assert.java:20)
@@ -67,7 +67,7 @@
 	at edu.coursera.parallel.ReciprocalArraySumTest.testParSimpleTwoMillion(ReciprocalArraySumTest.java:117)
 </failure>
   </testcase>
-  <testcase name="testParSimpleTwoHundredMillion" classname="edu.coursera.parallel.ReciprocalArraySumTest" time="3.408">
+  <testcase name="testParSimpleTwoHundredMillion" classname="edu.coursera.parallel.ReciprocalArraySumTest" time="3.835">
     <failure message="Mismatch in result for N = 200000000, expected = 10459940.214862, computed = 0.000000, absolute error = 10459940.214862" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Mismatch in result for N = 200000000, expected = 10459940.214862, computed = 0.000000, absolute error = 10459940.214862
 	at junit.framework.Assert.fail(Assert.java:47)
 	at junit.framework.Assert.assertTrue(Assert.java:20)
@@ -75,7 +75,7 @@
 	at edu.coursera.parallel.ReciprocalArraySumTest.testParSimpleTwoHundredMillion(ReciprocalArraySumTest.java:127)
 </failure>
   </testcase>
-  <testcase name="testParManyTaskTwoMillion" classname="edu.coursera.parallel.ReciprocalArraySumTest" time="0.037">
+  <testcase name="testParManyTaskTwoMillion" classname="edu.coursera.parallel.ReciprocalArraySumTest" time="0.029">
     <failure message="Mismatch in result for N = 2000000, expected = 104672.524998, computed = 0.000000, absolute error = 104672.524998" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Mismatch in result for N = 2000000, expected = 104672.524998, computed = 0.000000, absolute error = 104672.524998
 	at junit.framework.Assert.fail(Assert.java:47)
 	at junit.framework.Assert.assertTrue(Assert.java:20)
@@ -83,7 +83,7 @@
 	at edu.coursera.parallel.ReciprocalArraySumTest.testParManyTaskTwoMillion(ReciprocalArraySumTest.java:140)
 </failure>
   </testcase>
-  <testcase name="testParManyTaskTwoHundredMillion" classname="edu.coursera.parallel.ReciprocalArraySumTest" time="2.896">
+  <testcase name="testParManyTaskTwoHundredMillion" classname="edu.coursera.parallel.ReciprocalArraySumTest" time="2.949">
     <failure message="Mismatch in result for N = 200000000, expected = 10459940.214862, computed = 0.000000, absolute error = 10459940.214862" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Mismatch in result for N = 200000000, expected = 10459940.214862, computed = 0.000000, absolute error = 10459940.214862
 	at junit.framework.Assert.fail(Assert.java:47)
 	at junit.framework.Assert.assertTrue(Assert.java:20)
